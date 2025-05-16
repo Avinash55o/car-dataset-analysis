@@ -48,5 +48,5 @@ We create several visualizations, including:
 - **Distribution of City MPG**: A histogram showing how fuel efficiency varies in the city.
 - **Average MSRP by Origin**: A bar chart comparing average prices based on where the cars are from.
 - **Comparison of Weight, Horsepower, and MPG City**: A grouped bar chart for selected car models.
--**Count the no of cars by Origin**: A pie chart camparing the count of cars based on the origin.
+- **Count the no of cars by Origin**: A pie chart camparing the count of cars based on the origin.
 
