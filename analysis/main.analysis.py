@@ -76,3 +76,12 @@ plt.legend()
 plt.tight_layout()
 plt.savefig('../output/plots/comparison_weight_horsepower_mpg_city.png')
 plt.show()
+
+# COUNT THE NO OF CARS BY ORIGIN
+origin_counts = df['Origin'].value_counts()
+plt.figure(figsize=(8, 8))
+plt.pie(origin_counts, labels=origin_counts.index, autopct='%1.1f%%', startangle=140, colors=['skyblue', 'orange', 'lightgreen'])
+plt.title('Distribution of Cars by Origin')
+plt.tight_layout()
+plt.savefig('../output/plots/distribution_of_cars_by_origin.png')
+plt.show()
